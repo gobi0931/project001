@@ -334,18 +334,18 @@ body {
     }
 }
 
-/* Custom CSS for the Footer */
+/* Footer */
 .footer {
-    background-color: #f8f1f1; /* Pure black background */
-    border-top: 1px solid #f8f1f1; /* Light gray line at the top, optional */
+    background-color: #f8f1f1; 
+    border-top: 1px solid #f8f1f1; 
 }
 
-/* Style for the 'Ayush Singh' brand name */
+
 .footer-brand {
-    font-family: 'Times New Roman', serif; /* Use a classic, serif font */
-    font-size: 2.2rem; /* Large font size */
-    font-weight: 400; /* Regular weight */
-    color: #f8f1f1; /* White color */
+    font-family: 'Times New Roman', serif; 
+    font-size: 2.2rem; 
+    font-weight: 400; 
+    color: #f8f1f1;
 }
 
 /* Style for all footer links */
@@ -387,3 +387,5 @@ body {
     width: 60px;
     height:60px;
 }
+
+
