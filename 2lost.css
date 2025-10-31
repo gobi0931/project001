@@ -1,0 +1,77 @@
+body {
+    background-color: #F8F9FA; /* Light background */
+}
+.item-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden; /* Ensure badge stays within card */
+}
+.item-card .card-img-top {
+    height: 180px; /* Fixed height for images */
+    object-fit: contain; /* Maintain aspect ratio */
+    padding: 15px; /* Add some padding around the image */
+    background-color: #FFFFFF; /* White background for images */
+    border-bottom: 1px solid #eee;
+}
+.item-card .card-body {
+    padding: 15px;
+}
+.item-card .card-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #343A40;
+}
+.item-card .card-text small {
+    display: block; /* Make small tags stack */
+    line-height: 1.3;
+}
+/* Tag styling */
+.item-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 4px;
+    z-index: 10; /* Ensure it's above the image */
+}
+/* Adjust tag colors if needed */
+.item-tag.bg-danger { /* For LATEST, LOST */
+    background-color: #DC3545 !important;
+}
+.item-tag.bg-warning { /* For FOUND */
+    background-color: #FFC107 !important;
+    color: #343A40 !important; /* Darker text for warning badge */
+}
+.item-tag.bg-success { /* For LOST (dog) */
+    background-color: #28A745 !important;
+}
+.item-tag.bg-info { /* For FOUND (microchipped) */
+    background-color: #17A2B8 !important;
+}
+.item-tag.bg-primary { /* For another FOUND backpack */
+    background-color: #007BFF !important;
+}
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.333333%; /* Three columns on medium screens and up */
+    }
+}
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 25%; /* Four columns on large screens and up, if you ever decide to expand */
+    }
+}
+
+
+
+
+
+
+
