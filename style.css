@@ -295,7 +295,7 @@ body {
     opacity: 0.6;
 }
 
-/*  Custom Carousel Controls */
+
 .carousel-control-prev,
 .carousel-control-next {
     width: 50px;
@@ -319,7 +319,7 @@ body {
     opacity: 1;
 }
 
-/* Hide side cards on smaller screens (This responsive part is actually good!) */
+
 @media (max-width: 992px) {
     .testimonial-track {
         padding-left: 0;
@@ -334,56 +334,58 @@ body {
     }
 }
 
-/* Custom CSS for the Footer */
+/* Footer */
 .footer {
-    background-color: #f8f1f1; /* Pure black background */
-    border-top: 1px solid #f8f1f1; /* Light gray line at the top, optional */
+    background-color: #f8f1f1; 
+    border-top: 1px solid #f8f1f1; 
 }
 
-/* Style for the 'Ayush Singh' brand name */
+
 .footer-brand {
-    font-family: 'Times New Roman', serif; /* Use a classic, serif font */
-    font-size: 2.2rem; /* Large font size */
-    font-weight: 400; /* Regular weight */
-    color: #f8f1f1; /* White color */
+    font-family: 'Times New Roman', serif; 
+    font-size: 2.2rem; 
+    font-weight: 400; 
+    color: #f8f1f1;
 }
 
-/* Style for all footer links */
+
 .footer-link,
 .social-icon,
 .list-unstyled li,
 .list-unstyled p {
-    font-family: 'Times New Roman', serif; /* Consistent font */
-    color: #f8f1f1; /* Default link color is white */
-    text-decoration: none; /* Remove underline from links */
-    opacity: 0.8; /* Slightly subdued look for links */
+    font-family: 'Times New Roman', serif; 
+    color: #f8f1f1; 
+    text-decoration: none; 
+    opacity: 0.8;
     transition: opacity 0.2s ease;
 }
 
 .footer-link:hover,
 .social-icon:hover {
     color: #f8f1f1;
-    opacity: 1; /* Full opacity on hover */
+    opacity: 1; 
     text-decoration: none;
 }
 
-/* Remove default list styling */
+
 .list-unstyled {
     padding-left: 0;
     list-style: none;
 }
 
-/* Spacing for list items */
+
 .list-unstyled li {
     margin-bottom: 0.5rem;
     font-size: 18px;
 }
 
-/* Styling for social icons */
+
 .social-icon {
-    font-size: 1.5rem; /* Icon size */
+    font-size: 1.5rem; 
 }
 .footer-logo{
     width: 60px;
     height:60px;
 }
+
+
