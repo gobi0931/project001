@@ -92,7 +92,7 @@
 
 /* 1. Body Background (The colorful gradient) */
 .login-body {
-    background: linear-gradient(to right, #00c6ff, #0072ff, #bb00ff, #ff00c6);
+    background: linear-gradient(to right, #5755b5, #6a1b9a, #417ce2, #0c64e4);
     background-size: 400% 400%;
     animation: gradient-animation 15s ease infinite;
     padding-top: 80px;

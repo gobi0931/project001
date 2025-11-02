@@ -33,7 +33,7 @@
 
 
 .login-body {
-    background: linear-gradient(to right, #00c6ff, #0072ff, #bb00ff, #ff00c6);
+    background: linear-gradient(to right, #5755b5, #6a1b9a, #417ce2, #0c64e4);
     background-size: 400% 400%;
     animation: gradient-animation 15s ease infinite;
     padding-top: 150px;
@@ -99,7 +99,30 @@
     transition: transform 0.3s ease;
 }
 
+.or-divider {
+    color: #999;
+    font-size: 0.9rem;
+}
 
+.social-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.facebook-icon { background-color: #1877f2; }
+.twitter-icon { background-color: #1da1f2; }
+.google-icon { background-color: #ea4335; }
 
 
 /* Footer */
