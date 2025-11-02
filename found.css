@@ -1,0 +1,161 @@
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    background-color: white; 
+}
+
+.navbar-brand {
+
+    position: relative; 
+    line-height: 1; 
+}
+
+
+.btn-secondary {
+    background-color: #e0e0e0 !important; 
+    border-color: #e0e0e0 !important;
+}
+
+.color-bar {
+    height: 8px; 
+    
+    background: linear-gradient(to right, #ff9966, #ffcc33, #66cc99, #3399cc);
+    width: 100%;
+}
+
+
+.nav-link {
+    font-weight: 700 !important; 
+    color: #333 !important; 
+}
+
+
+/* style.css */
+
+body {
+    background-color: #f8f9fa; /* Light background to make the cards stand out */
+}
+
+.container3{
+    padding: 60px 30px;
+}
+
+
+/* Custom styling for the item card container */
+.lost-item-card {
+    background-color: white;
+    border-radius: 0.75rem; /* Soft rounded corners */
+    border: 1px solid rgba(0, 0, 0, 0.05); /* Very light border */
+    overflow: hidden; /* Ensures image corners are also rounded */
+    transition: transform 0.2s;
+}
+
+.lost-item-card:hover {
+    transform: translateY(-3px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Styling the image to fit the card width */
+.card-img-top {
+    width: 100%;
+    /* DECREASED SIZE: Fixed height for smaller card size */
+    height: 150px; 
+    object-fit: cover; /* Ensures image covers the area without distortion */
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+/* Styling the description text */
+.description {
+    font-size: 0.9rem; /* Smaller font for a compact look */
+    color: #555;
+    min-height: 38px; /* Adjusted minimum height */
+}
+
+/* Custom button sizes and colors */
+.custom-call-btn, .custom-message-btn {
+    padding: 0.25rem 0.7rem; /* Smaller button padding */
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.custom-call-btn {
+    background-color: #28a745; /* Green */
+    border-color: #28a745;
+}
+
+.custom-message-btn {
+    background-color: #007bff; /* Blue */
+    border-color: #007bff;
+}
+
+/* Button hover states */
+.custom-call-btn:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.custom-message-btn:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Ensure the title is visible and bold */
+h1 {
+    color: #343a40;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #f8f1f1; 
+    border-top: 1px solid #f8f1f1; 
+}
+
+
+.footer-brand {
+    font-family: 'Times New Roman', serif; 
+    font-size: 2.2rem; 
+    font-weight: 400; 
+    color: #f8f1f1;
+}
+
+
+.footer-link,
+.social-icon,
+.list-unstyled li,
+.list-unstyled p {
+    font-family: 'Times New Roman', serif; 
+    color: #f8f1f1; 
+    text-decoration: none; 
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.footer-link:hover,
+.social-icon:hover {
+    color: #f8f1f1;
+    opacity: 1; 
+    text-decoration: none;
+}
+
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+}
+
+
+.social-icon {
+    font-size: 1.5rem; 
+}
+.footer-logo{
+    width: 60px;
+    height:60px;
+}

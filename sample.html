@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost Items Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-primary" href="#"><i class="bi bi-geo-alt-fill me-1"></i> LostFinder</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="report-found.html">Report Found</a></a></li>
+                <li class="nav-item"><a class="nav-link" href="lost-items.html">Lost Items</a></li>
+                <li class="nav-item d-lg-none"><a class="btn btn-sm btn-outline-primary w-100 my-2" href="login.html">Login</a></li>
+            </ul>
+            <a class="btn btn-sm btn-primary d-none d-lg-block ms-3" href="login.html">Login / Register</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    
+    <div class="sticky-search-header sticky-top bg-white pt-4 pb-3 shadow-sm-bottom">
+        
+        <h1 class="mb-4 fw-bold text-dark">
+            <i class="bi bi-search me-3" style="font-size: 1.5rem;"></i>
+            Lost Items
+        </h1>
+        
+        <div class="row mb-0">
+            <div class="col-12">
+                <form class="d-flex search-form" role="search">
+                    <div class="input-group">
+                        <input type="search" class="form-control form-control-lg search-input" placeholder="Search for item name, location, or description..." aria-label="Search lost items">
+                        <button class="btn btn-primary btn-lg search-btn" type="submit">
+                            <i class="bi bi-search"></i> Search
+                        </button>
+                        <button class="btn btn-outline-secondary btn-lg d-none d-sm-block filter-btn" type="button">
+                            <i class="bi bi-funnel"></i> Filters
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row g-4 mt-3">
+        
+        </div>
+    </div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="contactOffcanvas" aria-labelledby="contactOffcanvasLabel">
+  </div>

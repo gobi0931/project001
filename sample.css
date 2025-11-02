@@ -1,0 +1,36 @@
+/* style.css - With Sticky Search Header Styles */
+
+/* --- Existing Navbar & Body Styles --- */
+body {
+    background-color: #f8f9fa; 
+}
+/* By default, Bootstrap's sticky-top on the navbar has z-index: 1030 */
+/* --- End Existing Navbar & Body Styles --- */
+
+
+/* ⭐ NEW: Sticky Header Styling ⭐ */
+.sticky-search-header {
+    /* Set z-index to be slightly lower than the navbar (1030) but higher than everything else. 
+       We'll use 1020, as the navbar already has sticky-top by default. */
+    z-index: 1020;
+    /* Add a subtle shadow at the bottom to visually separate it from content when scrolling */
+    box-shadow: 0 4px 6px -6px #999;
+}
+
+/* We need to ensure the top padding of the container doesn't cause a gap 
+   when the sticky element is hidden under the navbar. The HTML fix (pt-4 pb-3 on the wrapper) is better. */
+
+/* --- Existing Search Bar Styling --- */
+.search-form .input-group {
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.search-input {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 1rem 1.25rem !important;
+}
+
+/* ... (Include all other existing styles for search bar, cards, and buttons) ... */
