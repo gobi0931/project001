@@ -20,26 +20,32 @@
             <span class="fs-3 fw-bold">iFOUND</span>
           </a>
           
-          <div class="d-flex ms-auto">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item me-3">
-                <a class="nav-link text-dark fw-bold" href="index.html">Home</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link text-dark fw-bold" href="lost.html">Lost</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link text-dark fw-bold" href="found.html">Found</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link text-dark fw-bold" href="report.html">Report Found</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link text-dark fw-bold" href="login.html"><i class="fa-solid fa-circle-user"></i></a>
-              </li>
-              
-            </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item me-3">
+                  <a class="nav-link text-dark fw-bold" href="index.html">Home</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link text-dark fw-bold" href="lost.html">Lost</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link text-dark fw-bold" href="found.html">Found</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link text-dark fw-bold" href="report.html">Report Found</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link text-dark fw-bold" href="login.html"><i class="fa-solid fa-circle-user"></i></a>
+                </li>
+              </ul>
+            </div>
           </div>
+          
         </div>
       </nav>
       <div class="color-bar"></div>
@@ -47,10 +53,7 @@
 
     <main>
         <section class="hero-section">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
+            </div>
     </nav>
 
     <div class="container-fluid hero-content d-flex flex-column justify-content-center align-items-center text-white">
@@ -62,10 +65,11 @@
             <input type="text" class="form-control search-input me-0 rounded-0" placeholder="Search Here">
             
             <select class="form-select search-select me-0 rounded-0" aria-label="Distric select">
-                <option selected>Jaffna</option>
-                <option selected>Kilinochchi</option>
-                <option value="1">Vavuniya</option>
-                <option value="2">Mannar</option>
+                <option selected disabled>Select District</option>
+                <option value="Jaffna">Jaffna</option>
+                <option value="Kilinochchi">Kilinochchi</option>
+                <option value="Vavuniya">Vavuniya</option>
+                <option value="Mannar">Mannar</option>
             </select>
             
             <button class="btn search-btn rounded-0" type="submit">
@@ -177,8 +181,7 @@
     </div>
 </section>
 
-<!-- Footer -->
- <footer class="text-white bg-dark pt-4 pb-4">
+<footer class="text-white bg-dark pt-4 pb-4">
     <div class="container">
         <div class="row">
 
