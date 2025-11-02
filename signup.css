@@ -1,0 +1,157 @@
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    background-color: white; 
+}
+
+.navbar-brand {
+
+    position: relative; 
+    line-height: 1; 
+}
+
+
+.btn-secondary {
+    background-color: #e0e0e0 !important; 
+    border-color: #e0e0e0 !important;
+}
+
+.color-bar {
+    height: 8px; 
+    
+    background: linear-gradient(to right, #ff9966, #ffcc33, #66cc99, #3399cc);
+    width: 100%;
+}
+
+
+.nav-link {
+    font-weight: 700 !important; 
+    color: #333 !important; 
+}
+
+
+
+
+.login-body {
+    background: linear-gradient(to right, #00c6ff, #0072ff, #bb00ff, #ff00c6);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* 2. Login/Sign Up Card Styling (Landscape Rectangle Change) */
+.login-card {
+    background-color: white;
+    width: 100%;
+    /* Landscape change: Increased max-width for a wider container */
+    max-width: 700px; 
+    padding: 3rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* 3. New Label Styling */
+.login-label {
+    /* Making the labels small and slightly subdued */
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 0.25rem; /* Small space below the label */
+    font-size: 0.9rem;
+    padding-left: 10px; /* Aligns visually with input padding */
+}
+
+/* 4. Input Field Styling (No major change, maintains aesthetic) */
+.login-input-group {
+    border-bottom: 2px solid #ccc;
+    transition: border-bottom-color 0.3s;
+}
+
+.login-input-group:focus-within {
+    border-bottom-color: #bb00ff;
+}
+
+.form-control {
+    padding: 0.75rem 1rem !important;
+    box-shadow: none !important;
+}
+
+.input-group-text, .form-control {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+}
+
+.form-control:focus, .input-group-text:focus {
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+/* ... (Rest of the CSS for button and social icons is unchanged) ... */
+.login-gradient-btn {
+    background: linear-gradient(to right, #00c6ff, #bb00ff);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+
+
+
+/* Footer */
+.footer {
+    background-color: #f8f1f1; 
+    border-top: 1px solid #f8f1f1; 
+}
+
+
+.footer-brand {
+    font-family: 'Times New Roman', serif; 
+    font-size: 2.2rem; 
+    font-weight: 400; 
+    color: #f8f1f1;
+}
+
+
+.footer-link,
+.social-icon,
+.list-unstyled li,
+.list-unstyled p {
+    font-family: 'Times New Roman', serif; 
+    color: #f8f1f1; 
+    text-decoration: none; 
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.footer-link:hover,
+.social-icon:hover {
+    color: #f8f1f1;
+    opacity: 1; 
+    text-decoration: none;
+}
+
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+}
+
+
+.social-icon {
+    font-size: 1.5rem; 
+}
+.footer-logo{
+    width: 60px;
+    height:60px;
+}
