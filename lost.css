@@ -12,7 +12,7 @@
 
 .nav-link {
   position: relative;
-  color: #212529; /* default text color */
+  color: #212529; 
   transition: color 0.3s ease;
 }
 
@@ -23,7 +23,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #007bff; /* blue line */
+  background-color: #007bff; 
   transition: width 0.3s ease;
 }
 
@@ -42,8 +42,7 @@
 }
 
 .color-bar {
-    height: 8px; 
-    
+    height: 8px;  
     background: linear-gradient(to right, #ff9966, #ffcc33, #66cc99, #3399cc);
     width: 100%;
 }
@@ -55,10 +54,9 @@
 }
 
 
-/* style.css */
 
 body {
-    background-color: #f8f9fa; /* Light background to make the cards stand out */
+    background-color: #f8f9fa; 
 }
 
 .container3{
@@ -66,55 +64,54 @@ body {
 }
 
 
-/* Custom styling for the item card container */
+
 .lost-item-card {
     background-color: white;
-    border-radius: 0.75rem; /* Soft rounded corners */
-    border: 1px solid rgba(0, 0, 0, 0.05); /* Very light border */
-    overflow: hidden; /* Ensures image corners are also rounded */
+    border-radius: 0.75rem; 
+    border: 1px solid rgba(0, 0, 0, 0.05); 
+    overflow: hidden; 
     transition: transform 0.2s;
 }
 
 .lost-item-card:hover {
-    transform: translateY(-3px); /* Slight lift effect on hover */
+    transform: translateY(-3px); 
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important;
 }
 
-/* Styling the image to fit the card width */
+
 .card-img-top {
     width: 100%;
-    /* DECREASED SIZE: Fixed height for smaller card size */
     height: 150px; 
-    object-fit: cover; /* Ensures image covers the area without distortion */
+    object-fit: cover; 
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
 }
 
-/* Styling the description text */
+
 .description {
-    font-size: 0.9rem; /* Smaller font for a compact look */
+    font-size: 0.9rem; 
     color: #555;
-    min-height: 38px; /* Adjusted minimum height */
+    min-height: 38px; 
 }
 
-/* Custom button sizes and colors */
+/
 .custom-call-btn, .custom-message-btn {
-    padding: 0.25rem 0.7rem; /* Smaller button padding */
+    padding: 0.25rem 0.7rem; 
     font-size: 0.85rem;
     font-weight: 500;
 }
 
 .custom-call-btn {
-    background-color: #28a745; /* Green */
+    background-color: #28a745; 
     border-color: #28a745;
 }
 
 .custom-message-btn {
-    background-color: #007bff; /* Blue */
+    background-color: #007bff; 
     border-color: #007bff;
 }
 
-/* Button hover states */
+
 .custom-call-btn:hover {
     background-color: #218838;
     border-color: #1e7e34;
@@ -125,13 +122,13 @@ body {
     border-color: #0062cc;
 }
 
-/* Ensure the title is visible and bold */
+
 h1 {
     color: #343a40;
 }
 
 
-/* Footer */
+
 .footer {
     background-color: #f8f1f1; 
     border-top: 1px solid #f8f1f1; 
