@@ -19,10 +19,29 @@ body {
     line-height: 1; 
 }
 
-links:hover{
-  transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  background-image: 0 4px 12px rgba(0,0,0,0.15);
+.nav-link {
+  position: relative;
+  color: #212529; /* default text color */
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #007bff; /* blue line */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff; 
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
 
 
