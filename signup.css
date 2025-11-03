@@ -10,30 +10,7 @@
     line-height: 1; 
 }
 
-.nav-link {
-  position: relative;
-  color: #212529; /* default text color */
-  transition: color 0.3s ease;
-}
 
-.nav-link::after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #007bff; /* blue line */
-  transition: width 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #007bff; 
-}
-
-.nav-link:hover::after {
-  width: 100%;
-}
 
 .btn-secondary {
     background-color: #e0e0e0 !important; 
@@ -70,11 +47,11 @@
     100% { background-position: 0% 50%; }
 }
 
-/* 2. Login/Sign Up Card Styling (Landscape Rectangle Change) */
+
+
 .login-card {
     background-color: white;
     width: 100%;
-    /* Landscape change: Increased max-width for a wider container */
     max-width: 700px; 
     padding: 3rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -82,17 +59,16 @@
 
 
 
-/* 3. New Label Styling */
+
 .login-label {
-    /* Making the labels small and slightly subdued */
     font-weight: 600;
     color: #444;
-    margin-bottom: 0.25rem; /* Small space below the label */
+    margin-bottom: 0.25rem; 
     font-size: 0.9rem;
-    padding-left: 10px; /* Aligns visually with input padding */
+    padding-left: 10px; 
 }
 
-/* 4. Input Field Styling (No major change, maintains aesthetic) */
+
 .login-input-group {
     border-bottom: 2px solid #ccc;
     transition: border-bottom-color 0.3s;
@@ -116,7 +92,7 @@
     border-color: transparent !important;
     box-shadow: none !important;
 }
-/* ... (Rest of the CSS for button and social icons is unchanged) ... */
+
 .login-gradient-btn {
     background: linear-gradient(to right, #00c6ff, #bb00ff);
     border: none;
@@ -149,7 +125,7 @@
 .google-icon { background-color: #ea4335; }
 
 
-/* Footer */
+
 .footer {
     background-color: #f8f1f1; 
     border-top: 1px solid #f8f1f1; 

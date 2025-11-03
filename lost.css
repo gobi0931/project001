@@ -12,7 +12,7 @@
 
 .nav-link {
   position: relative;
-  color: #212529; /* default text color */
+  color: #212529; 
   transition: color 0.3s ease;
 }
 
@@ -23,7 +23,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #007bff; /* blue line */
+  background-color: #007bff; 
   transition: width 0.3s ease;
 }
 
@@ -42,8 +42,7 @@
 }
 
 .color-bar {
-    height: 8px; 
-    
+    height: 8px;  
     background: linear-gradient(to right, #ff9966, #ffcc33, #66cc99, #3399cc);
     width: 100%;
 }
@@ -55,10 +54,9 @@
 }
 
 
-/* style.css */
 
 body {
-    background-color: #f8f9fa; /* Light background to make the cards stand out */
+    background-color: #f8f9fa; 
 }
 
 .container3{
@@ -66,21 +64,21 @@ body {
 }
 
 
-/* Custom styling for the item card container */
+
 .lost-item-card {
     background-color: white;
-    border-radius: 0.75rem; /* Soft rounded corners */
-    border: 1px solid rgba(0, 0, 0, 0.05); /* Very light border */
-    overflow: hidden; /* Ensures image corners are also rounded */
+    border-radius: 0.75rem; 
+    border: 1px solid rgba(0, 0, 0, 0.05); 
+    overflow: hidden; 
     transition: transform 0.2s;
 }
 
 .lost-item-card:hover {
-    transform: translateY(-3px); /* Slight lift effect on hover */
+    transform: translateY(-3px); 
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important;
 }
 
-/* Styling the image to fit the card width */
+
 .card-img-top {
     width: 100%;
     /* DECREASED SIZE: Fixed height for smaller card size */

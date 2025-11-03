@@ -174,7 +174,6 @@ body {
     --cookie-bg: #f8f9fa; 
 }
 
-/* Header Banner Styling */
 .header-banner {
     background: linear-gradient(to right, #6A1B9A, #4A148C); 
     font-weight: 500;
@@ -229,7 +228,7 @@ body {
     font-size: 1.35rem;
 }
 
-/* Custom Colors */
+
 :root {
     --gradient-start: #3f0a7e; 
     --gradient-end: #007bff; 
@@ -237,7 +236,7 @@ body {
     --primary-purple: #6a1b9a;
 }
 
-/*Background Gradient Section */
+
 .success-stories-section {
     position: relative;
     overflow: hidden; 
@@ -273,7 +272,7 @@ body {
     z-index: 1;
 }
 
-/* Testimonial Cards */
+
 .testimonial-track {
     padding-left: 10%;
     padding-right: 10%;
@@ -305,7 +304,7 @@ body {
     color: var(--primary-purple);
 }
 
-/* Side Cards */
+
 .side-card {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px); 
@@ -359,7 +358,6 @@ body {
     }
 }
 
-/* Footer */
 .footer {
     background-color: #f8f1f1; 
     border-top: 1px solid #f8f1f1; 
